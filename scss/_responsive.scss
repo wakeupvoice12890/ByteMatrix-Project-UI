@@ -1,0 +1,68 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {}
+
+@media (max-width: 575.98px) {
+    .story-section {
+        background: none;
+        width: 100%;
+    }
+
+    .product-name {
+        width: 100% !important;
+    }
+
+    .product-content-desc {
+        font-size: 10px;
+    }
+
+    .product-content-title {
+        font-size: 16px;
+    }
+
+    .product-content-price {
+        font-size: 15px;
+    }
+
+    .product-content-btn {
+        font-size: 10px;
+    }
+
+    .product-content-thumbnail {
+        width: 72px;
+        height: 72px;
+    }
+
+    .table-responsive {
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .story-section {
+        background: none;
+        width: 100%;
+    }
+
+    .purchase-step {
+        a {
+            img {
+                width: 72px;
+            }
+        }
+    }
+}
