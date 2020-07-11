@@ -14,7 +14,19 @@
 @media (min-width: 1200px) {}
 
 // XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) {}
+@media (min-width: 1400px) {
+    .payment-section {
+        background: url(../images/7.png) 1554px -56px no-repeat, url(../images/8.jpg) 0px 0px repeat;
+    }
+
+    .checkout-portion {
+        background: url(../images/5.png) 101em 14em no-repeat, url(../images/6.png) 78em 26em no-repeat, url(../images/4.png) -6px 16.5em no-repeat, url(../images/612.png) 21em 23em no-repeat, url(../images/8.jpg) -1px 0px repeat;
+    }
+
+    .testimonial-section {
+        background-position-y: 19%;
+    }
+}
 
 @media (max-width: 575.98px) {
     .story-section {
@@ -64,5 +76,20 @@
                 width: 72px;
             }
         }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1365px) {
+    .testimonial-section {
+        background-position: 37% 28%;
+        background-repeat: no-repeat;
+    }
+
+    .testimonial-data {
+        width: 60% !important;
+    }
+
+    .story-section {
+        background-position: right -32% bottom -8px;
     }
 }
